@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Profile</title>
+        <style>
+            body {
+                margin: 0;
+                padding: 0;
+                height: 100%
+                    font-family: inherit;
+            }
+
+            .header {
+                background-color: coral;
+                padding: 30px;
+                position: relative;
+                text-align: center;
+            }
+
+            .header h1{
+                font-size: 2em;
+                text-shadow: 2px 2px 2px black;
+            }
+
+            .header-text {
+                color: white;
+                font-size: 24px;
+                font-weight: bold;
+                margin-top: 0;
+            }
+
+            .profile-pic {
+                width: 170px;
+                height: 170px;
+                border-radius: 50%;
+                box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+                position: absolute;
+                top: 80%;
+                transform: translateY(-50%);
+                left: 50px;
+            }
+
+            .left-column {
+                background-color: white;
+                width: 30%;
+
+                float: left;
+            }
+
+            .right-column {
+                background-color: lightgray;
+                width: 70%;
+                float: left;
+            }
+
+            .footer {
+                background-color: coral;
+                text-align: center;
+                float: left;
+                width: 100%;
+                color: white;
+                text-shadow: 2px 2px 2px black;
+            }
+
+            .my-name {
+                padding-left: 20px;
+            }
+
+            .my-name h2 {
+                margin-top: 20px;
+                margin: 0;
+                font-size: 24px;
+            }
+
+            .my-name h3 {
+                margin: 0;
+                font-size: 18px;
+                color: #555;
+            }
+
+            .my-objective p{
+                margin: 0;
+                font-size: 18px;
+                color: black;
+                margin: 20px;
+                text-align: justify;
+            }
+
+            .my-education{
+                padding-left: 20px;
+            }
+
+            .my-education h2{
+                background-color: ghostwhite;
+                padding: 10px;
+                border-radius: 5px;
+                color: #333;
+            }
+            .my-education dl{
+                margin: 20px;
+            }
+
+            .my-workexp{
+                padding-left: 20px;
+            }
+
+            .my-workexp h2{
+                background-color: ghostwhite;
+                padding: 10px;
+                border-radius: 5px;
+                color: #333;
+            }
+
+            .my-workexp dl{
+                margin: 20px;
+            }
+
+            .footer img {
+                width: 4%;
+                height: 4%;
+                background-color: white;
+                border-radius: 10px;
+            }
+            .contact-info {
+                margin-top: 100px;
+                margin-left: 20px;
+            }
+            .contact-info p, address{
+                padding: 0;
+                margin: 0;
+            }
+            .skills {
+                margin-left: 20px;
+            }
+            .skills p{
+                margin: 0;
+            }
+            .hobbies{
+                margin-left: 20px;
+            }
+            .hobbies ul{
+                padding: 0;
+                margin: 0;
+                margin-left: 20px;
+            }
+            .my-hightlights{
+                margin-left: 20px; 
+            }
+            .my-location{
+                padding-left: 20px;
+            }
+            .my-location h2{
+                background-color: ghostwhite;
+                padding: 10px;
+                border-radius: 5px;
+                color: #333;
+            }
+            .my-location p{
+                margin-left: 30px;
+            }
+            .my-location iframe{
+                margin:20px;
+            }
+            .my-videos{
+                padding-left: 20px;
+            }
+            .my-videos h2{
+                background-color: ghostwhite;
+                padding: 10px;
+                border-radius: 5px;
+                color: #333;
+            }
+            .my-videos table{
+                margin: 20px;
+            }
+            .my-declaration{
+                padding-left: 20px;
+            }
+            .my-declaration h2{
+                background-color: ghostwhite;
+                padding: 10px;
+                border-radius: 5px;
+                color: #333;
+            }
+            .my-declaration p{
+                margin-left:20px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h1 class="header-text">My Profile</h1>
+            <img class="profile-pic" src="pp%20photo.jpg" alt="Profile Image"/>
+        </div>
+        <div class="left-column">
+            <div class="contact-info">
+                <h3>Contact Information</h3>
+                <p>Phone: +08055760097</p>
+                <p>Email: me.yogsharma@gmail.com</p>
+                <address>Address: 612-0028 kyoto fu kyoto shi fushimi ku fukakusa  Ijikichou 801-1 mezon aizen 2-B</address>
+            </div>
+            <div class="skills">
+                <h3>Skills</h3>
+                <p>HTML : <progress id="file" max="100" value="90" style="color:orange;"> 90% </progress></p>
+                <p>CSS: <progress id="file" max="100" value="80"> 80% </progress></p> 
+                <p>JavaScript:<progress id="file" max="100" value="60"> 60% </progress></p> 
+                <p>PHP: <progress id="file" max="100" value="75"> 75% </progress></p>  
+                <p>Photoshop: <progress id="file" max="100" value="80"> 80% </progress></p>
+                <p>Video Editing: <progress id="file" max="100" value="60"> 60% </progress></p>
+                <p>MySQLi: <progress id="file" max="100" value="50"> 50% </progress></p>
+                <p>WordPress:<progress id="file" max="100" value="60"> 60% </progress></p>  
+                <p>Ms Office: <progress id="file" max="100" value="75"> 75% </progress></p> 
+            </div>
+            <div class="hobbies">
+                <h3>Hobbies</h3>
+                <ul>
+                    <li>Music</li>
+                    <li>Coding</li>
+                    <li>Learning</li>
+                    <li>Travelling</li>
+                </ul>
+            </div>
+            <div class="my-hightlights">
+                <h3>Hightlights</h3>
+                <table>
+                    <tr>
+                        <td>
+                            <img src="pic1.jpg" width="150px" height="150px"/>
+                        </td>
+                        <td>
+                            <img src="pic2.jpg" width="150px" height="150px"/>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="my-location">
+                <h3>My Location</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3270.0484238412764!2d135.76643506262747!3d34.955394976171156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60010f72ff6c16b7%3A0x6b555baf87a378a8!2z5aSp6aas6a6o!5e0!3m2!1sen!2sjp!4v1686975239579!5m2!1sen!2sjp" width="80%" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="my-location">
+                <h3>Language</h3>
+                <p>Nepali <progress id="file" max="100" value="100" style="color:orange;"> 100% </progress></p>
+                <p>Hindi <progress id="file" max="100" value="60" style="color:orange;"> 60% </progress></p>
+                <p>English <progress id="file" max="100" value="60" style="color:orange;"> 65% </progress></p>
+                <p>Japanese <progress id="file" max="100" value="25" style="color:orange;"> 25% </progress></p>
+            </div>
+        </div>
+        <div class="right-column">
+            <div class="my-name">
+                <br/>
+                <h2>SHARMA YOG PRASAD</h2>
+                <h3>&nbsp;Web System Developer</h3>
+            </div>
+            <div class="my-objective">
+                <p>I am a highly motivated individual who has successfully completed a Bachelor's degree in BScSCIT and is currently pursuing a Master's degree in MScIT. With a strong educational background and a passion for information technology, I am dedicated to expanding my knowledge and skills in the field. My goal is to apply my expertise to drive innovation, solve complex problems, and contribute to the advancements in technology. I am committed to lifelong learning and staying up-to-date with the latest industry trends, ensuring that I can make a meaningful impact in the ever-changing IT landscape.</p>
+            </div>
+            <div class="my-education">
+                <h2>Education</h2>
+                <dl>
+                    <dt><b>Master's Degree</b></dt>
+                    <dd>
+                        Kyoto College of Graduate Studies For Informatic,Kyoto, Japan
+                        <br/>
+                        2023 April - Present
+                        <br/>
+                        MScIT
+                    </dd>
+                    <br/>
+                    <dt><b>Bachelor's Degree</b></dt>
+                    <dd>
+                        Buwal Multiple Campus, Butwal, Nepal
+                        <br/>
+                        2018
+                        <br/>
+                        BScCSIT
+                    </dd>
+                    <br/>
+                    <dt><b>Plus 2</b></dt>
+                    <dd>
+                        Sagarmatha Higher Secondary School, Decdaha, Nepal
+                        <br/>
+                        2014
+                        <br/>
+                        Science
+                    </dd>
+                </dl>
+
+            </div>
+            <div class="my-workexp">
+                <h2>Work Experience</h2>
+                <dl>
+                    <dt><b>Web System Development Intern</b></dt>
+                    <dd>
+                        Info Developers Pvt. Ltd., Nepal
+                        <br/>
+                        2017 Aug - 2018 Mar
+                    </dd>
+                    <br/>
+                    <dt><b>IT Assistant Intern</b></dt>
+                    <dd>
+                        Samuhik SACCOS, Nepal
+                        <br/>
+                        2019 Jan - 2019 July
+                    </dd>
+                    <br/>
+                    <dt><b>Senior IT Assistant</b></dt>
+                    <dd>
+                        Samuhik Saccos, Nepal
+                        <br/>
+                        2019 Aug - 2022 Dec
+                    </dd>
+                </dl>
+
+            </div>
+            <div class="my-videos"> 
+                <h2>Some Important Videos Link</h2>
+                <table>
+                    <tr>
+                        <td><iframe width="100%" height="250" src="https://www.youtube.com/embed/G3e-cpL7ofc" title="HTML &amp; CSS Full Course - Beginner to Pro" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </td>
+                        <td>
+                            <iframe width="100%" height="250" src="https://www.youtube.com/embed/sVbEyFZKgqk?list=PLr3d3QYzkw2xabQRUpcZ_IBk9W50M9pe-" title="Full PHP 8 Tutorial - Learn PHP The Right Way In 2023" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </td>
+                        <td>
+                            <iframe width="100%" height="250" src="https://www.youtube.com/embed/kqtD5dpn9C8" title="Python for Beginners - Learn Python in 1 Hour" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="my-declaration">
+                <h2>Declaration</h2>
+                <p>I hereby declare that the information provided in this profile CV is true, accurate, and complete to the best of my knowledge. I take full responsibility for the authenticity of the details mentioned.
+                    <br/><cite>Sharma Yog Prasad</cite>
+                </p>
+            </div>
+        </div>
+
+        <div class="footer">
+            <h3>FIND ME ON</h3>
+            <a href="https://www.facebook.com/profile.php?id=100080041775896"><img src="facebook-removebg-preview.png"/></a>
+            <a href="https://www.instagram.com"><img src="instagram-removebg-preview.png"/></a>
+            <a href="https://www.linkedin.com/in/yog-sharma-57108b272/"><img src="linkedin-removebg-preview.png"/></a>
+        </div>
+
+    </body>
+</html>
